@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3B4664;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.display{
+    width: 400px;
+    height: 100px;
+    background-color: #181F32;
+    color: white;
+    border-radius: 12px;
+    text-align: right;
+    font-size: 4rem;
+    font-weight: 700px;
+    line-height: 50px;
+    padding: 15px;
+    font-family: inter; 
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+
+.button-rows{
+    display: grid;
+    padding-top: 20px;
+    background-color: #252D44;
+    text-align: center;
+    width: 400px;
+    border: none;
+    outline: none;
+    height: 390px;
+    border-radius: 12px;
+}
+button{
+    text-align: center;
+    width: 70px;
+    height: 50px;  
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 800;
+    border: none;
+    
+}
+
+.delete{
+    background-color: #647299;
+    color: white;
+}
+
+.equal{
+    background-color: #D13F30;
+    width: 160px;
+}
+
+.clear{
+    background-color:#647299;
+    width: 160px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: #B8C2D4;
+}
+
+h2{
+    color: white;
+    padding: 10px;
+}
+
+/* @media(max-width:600px){
+    body {
+        height: auto;
+        flex-direction: column;
+    }
+   .main {
+    width: 100%;
+
+   } */
